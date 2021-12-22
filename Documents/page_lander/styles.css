@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+}
+
+header {
+  background-color: #f38e59;
+  text-align: center;
+  padding: 0 10px 50px 10px;
+}
+
+nav {
+  display: flex;
+  padding-top: 10px;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.lien a {
+  color: white;
+  text-decoration: none;
+}
+
+.lien {
+  padding: 20px 0;
+  font-size: large;
+  min-width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.lien2 {
+  display: none;
+}
+
+.btn {
+  padding-top: 25px;
+}
+
+.btnpremier {
+  background-color: rgb(2, 32, 47);
+  color: white;
+  text-decoration: none;
+  padding: 0.9375rem 1.5rem;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  margin: auto 5px;
+}
+
+.btnsecond {
+  color: white;
+  text-decoration: none;
+  box-shadow: white 0 0 0 0.1875em inset;
+  border-radius: 0.4rem;
+  padding: 0.9375rem 2rem;
+}
+
+h1 {
+  color: white;
+  margin-top: 2.3em;
+  font-size: 70px;
+}
+
+h3 {
+  color: #39353b;
+  line-height: 3em;
+  font-weight: 100;
+  font-size: 21px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+}
+
+.article1 {
+  margin: 0 5% 0 20%;
+}
+
+.article1 h4 {
+  color: #5bb5de;
+  font-size: xx-large;
+}
+
+.article1 p {
+  margin: 1em 0;
+  font-size: larger;
+  color: #39353b;
+  line-height: 1.5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nom {
+  padding: 0.6rem 0.8rem;
+  margin: 2em 0 1em 0;
+}
+
+.prenom {
+  padding: 0.6rem 0.8rem;
+  margin: 1em 0 1em 0;
+}
+
+.mail {
+  padding: 0.6rem 0.8rem;
+  margin: 1em 0 1em 0;
+}
+
+.phone {
+  padding: 0.6rem 0.8rem;
+  margin: 1em 0 1em 0;
+}
+
+.message {
+  padding: 0.6rem 0.8rem 10rem 0.8rem;
+  margin: 1em 0 0 0;
+}
+
+.submit {
+  float: right;
+  background-color: #f49b6c;
+  color: white;
+  text-decoration: none;
+  padding: 1.2rem 3rem;
+  border-radius: 0.4rem;
+  margin: 3em 0 7em 0;
+  font-weight: 700;
+  font-size: small;
+}
+
+.article2 {
+  margin: 0 20% 0 5%;
+}
+
+.article2 h4 {
+  color: #5bb5de;
+  font-size: xx-large;
+}
+
+.notsure {
+  margin: 1em 0;
+  font-size: larger;
+  color: #39353b;
+  line-height: 1.5em;
+}
+
+.aide {
+  text-decoration: none;
+  color: #f49b6c;
+}
+
+.othersway {
+  margin-top: 2em;
+  font-size: x-large;
+  color: #39353b;
+}
+
+.parafacebook {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.parafacebook p {
+  margin-left: 1.2em;
+  font-size: larger;
+  color: #39353b;
+}
+
+.likeus {
+  color: #f49b6c;
+  text-decoration: none;
+}
+
+.paratwitt {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.paratwitt p {
+  margin-left: 1.2em;
+  font-size: larger;
+  color: #39353b;
+}
+
+.followtwitt {
+  color: #f49b6c;
+  text-decoration: none;
+}
+
+.paralinkdin {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.paralinkdin p {
+  margin-left: 1.2em;
+  font-size: larger;
+  color: #39353b;
+}
+
+.followlinkdin {
+  color: #f49b6c;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #404040;
+  /* height: 280px; */
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.2fr 1.5fr 1fr 1.5fr;
+  padding: 50px 5% 50px 5%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  padding-left: 5px;
+}
+
+section h6 {
+  color: white;
+  font-size: 17px;
+}
+
+section a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.staytuned {
+  margin-top: 10px;
+}
+
+.logo {
+  color: #f49b6c;
+  font-size: 1.2em;
+}
+
+.logo i {
+  margin: 3px 0.5em 0 0;
+}
+
+section p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.btncreate {
+  margin-top: 20px;
+  background-color: rgb(2, 32, 47);
+  color: white;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  line-height: 16px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.copyright {
+  /* height: 30px; */
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+  padding: 5px 5%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.terms {
+  color: #f49b6c;
+  text-decoration: none;
+}
+
+@media (min-width: 761px) and (max-width: 990px) {
+  .btn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .btnpremier {
+    margin: 0;
+  }
+
+  .btnsecond {
+    margin-top: 10px;
+  }
+
+  h1 {
+    margin-top: 1.4em;
+  }
+}
+
+@media (min-width: 316px) and (max-width: 760px) {
+  .lien {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 30px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .btnpremier {
+    margin: 0;
+  }
+
+  .btnsecond {
+    margin-top: 10px;
+  }
+
+  h1 {
+    margin-top: 1.4em;
+    font-size: 40px;
+  }
+
+  h3 {
+    line-height: 1.5em;
+    font-size: 20px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+
+  .article1 {
+    margin: 0 5% 0 5%;
+  }
+
+  .article2 {
+    margin: 0 5% 50px 5%;
+  }
+
+  .submit {
+    margin: 3em 0 4em 0;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    padding: 20px 5% 0 5%;
+  }
+
+  section {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+
+  .lien2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .lien2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+  }
+
+  .landeresponsive {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 315px) {
+  .lien {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 30px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .btnpremier {
+    margin: 0;
+    padding: 0.9375rem 0.5rem;
+  }
+
+  .btnsecond {
+    margin-top: 10px;
+    padding: 0.9375rem 1rem;
+  }
+
+  h1 {
+    margin-top: 1.4em;
+    font-size: 40px;
+  }
+
+  h3 {
+    line-height: 1.5em;
+    font-size: 20px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+
+  .article1 {
+    margin: 0 5% 0 5%;
+  }
+
+  .article2 {
+    margin: 0 5% 50px 5%;
+  }
+
+  .submit {
+    margin: 3em 0 4em 0;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    padding: 20px 5% 0 5%;
+  }
+
+  section {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+
+  .lien2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .lien2 a {
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+  }
+
+  .landeresponsive {
+    display: flex;
+    flex-direction: column;
+  }
+}
